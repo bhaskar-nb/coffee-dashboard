@@ -1,6 +1,10 @@
-# Coffee Supply Analysis | Tableau
+# Global Coffee Supply Analysis | Tableau
 
-An interactive **Tableau dashboard for analyzing global coffee production and yield**. It combines production, yield, geographic, and time-based views to help users compare coffee-producing regions and understand supply patterns.
+An interactive **Tableau dashboard analyzing global coffee production and yield** to help compare supply across countries, identify production trends, and spot differences in agricultural productivity.
+
+## Why this project matters
+
+Coffee supply varies significantly by geography, production volume, and yield. This dashboard combines those dimensions into one view so users can quickly see **where coffee is produced, how production changes over time, and where higher production does or does not translate into higher yield**.
 
 ## Live dashboard
 
@@ -10,47 +14,47 @@ An interactive **Tableau dashboard for analyzing global coffee production and yi
 
 ![Coffee Supply Dashboard](images/Coffee%20Dashboard.png)
 
-## What this project analyzes
+## What the dashboard analyzes
 
-- Coffee production across countries and regions
+- Coffee production by country and region
 - Coffee yield and agricultural productivity
 - Production trends over time
 - Geographic distribution of global coffee supply
-- Production-versus-yield differences between regions
+- Production versus yield across regions
 
 ## Business questions
 
-The dashboard is designed to help answer:
-
-- Which countries contribute the most to coffee production?
-- How does coffee production change over time?
-- Which regions have stronger coffee yields?
-- Where are production levels high but yields comparatively lower?
-- How is global coffee supply distributed geographically?
+- Which countries contribute the most to global coffee production?
+- How has production changed over time?
+- Which regions achieve stronger yields?
+- Where is production high but yield comparatively lower?
+- How concentrated is global coffee supply?
 
 ## Dataset
 
-The analysis uses two source files stored in `data/`:
+The project uses two source files stored in `data/`:
 
 | File | Purpose |
 |---|---|
 | `coffee-bean-production.csv` | Coffee bean production data |
 | `coffee-yields.csv` | Coffee yield data |
 
+The dashboard combines these datasets for comparative production and yield analysis.
+
 ## Tools
 
-- **Tableau** — dashboard development and visual analysis
+- **Tableau** — dashboard development, visualization, and analysis
 - **CSV** — source data
-- **Git / GitHub** — version control and project documentation
+- **Git / GitHub** — version control and documentation
 
 ## Skills demonstrated
 
-- Data analysis
+- Supply and agricultural data analysis
 - Geographic analysis
 - Trend analysis
 - Comparative analysis
 - Data visualization
-- Dashboard design
+- Interactive dashboard design
 - Business intelligence
 - Data storytelling
 
@@ -68,9 +72,9 @@ coffee-dashboard/
 └── README.md
 ```
 
-## Scope
+## Scope and limitations
 
-This project is a portfolio analysis based on the supplied datasets. The dashboard should not be interpreted as a live or complete representation of current global coffee production.
+This is a portfolio analysis based on the supplied datasets. It is intended to demonstrate analytics and dashboarding skills, not to represent a live or complete view of current global coffee production.
 
 ## Author
 
